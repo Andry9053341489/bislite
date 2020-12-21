@@ -1,0 +1,11 @@
+/* @media (max-width: 901px){
+	.header__menu {
+		display: none;
+	}
+} */
+
+@media (min-width: 901px) {
+	.header__burger-btn {
+		display: none;
+	}
+}
