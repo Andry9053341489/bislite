@@ -576,7 +576,7 @@ a {
   justify-content: space-between;
 }
 
-.footer__connect-img + .footer__connect-img {
+.footer__connect-img+.footer__connect-img {
   margin-left: 0px;
   cursor: pointer;
 }
@@ -586,11 +586,12 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .footer__copyright-text {
   margin: 0;
-color: #363636;
-font-family: "Roboto", sans-serif;
-font-size: 13px;
-font-weight: 400;
-width: 65%;
+  color: #363636;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  width: 65%;
 }

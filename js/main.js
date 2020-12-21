@@ -14,7 +14,7 @@ $(function () {
 	});
 
 	$('.header__burger-btn').on('click', function(){
-		$('.header__menu').slideToggle();
+		$('.header__menu-items').slideToggle();
 	});
 
 });
