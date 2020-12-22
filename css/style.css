@@ -44,6 +44,7 @@ a {
   align-items: center;
 }
 
+
 .header__menu-items {
   display: flex;
   justify-content: space-between;
@@ -107,6 +108,7 @@ a {
   overflow: hidden;
   opacity: 0;
   z-index: 1;
+  position: absolute;
 
 }
 
@@ -146,24 +148,25 @@ a {
   height: auto;
   overflow: visible;
   opacity: 1;
-  transition: all .5s;
+  /* transition: all .5s; */
 }
 
 .header__drop-down.drop-down:hover>a {
   color: #2aacc8;
-  border-top: 5px solid #2aacc8;
+  /* border-top: 5px solid #2aacc8; */
   background-color: #fff;
-  transition: all .5s;
+  /* transition: all .5s; */
 }
 
 /* Кнопка мобильного меню */
 
 .header__burger-btn {
   width: 30px;
-  height: 20px;
+  height: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  display: none;
 }
 
 .header__burger-btn span {
@@ -437,10 +440,12 @@ a {
 .client__items {
   display: flex;
   flex-wrap: wrap;
+
+
 }
 
 .clients__item {
-  width: 160px;
+  min-width: 160px;
   height: 101px;
   box-shadow: inset 0 0 25px #e8ebf1;
   border: 1px solid #e8ebf1;
@@ -569,11 +574,6 @@ a {
 
 .footer__connect {
   margin-top: 20px;
-}
-
-.footer_connect-images {
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer__connect-img+.footer__connect-img {
